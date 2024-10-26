@@ -1,0 +1,662 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.Parent{
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 90px;
+}
+.NavBar{
+  display: flex;
+  font-size: 15px;
+  gap: 40px;
+  padding-left: 30%;
+  font-weight: 600 ;
+  color: rgb(135, 134, 134) ;
+  cursor: pointer;
+}
+
+.image{
+  display: flex;
+  margin-left: -35%;
+  position: absolute;
+  height: 7%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 0.5%;
+}
+
+.icons{
+  padding-left: 76%;
+  padding-top: 5px;
+  position: absolute;
+  cursor: pointer;
+}
+
+.logo{
+  position: absolute;
+  margin-right: 83%;
+  margin-top: 1%;
+  cursor: pointer;
+}
+
+.iphone{
+   position: absolute;
+}
+
+.Wide{
+  position: absolute;
+  margin-top: 555px;
+}
+.Wide-2{
+  position: absolute;
+  margin-top: 555px;
+  margin-left: 50%;
+}
+
+.Wide-3{
+  position: absolute;
+  margin-top: 828px;
+}
+
+
+.Wide-4{
+  position: absolute;
+  margin-top: 828px;
+  margin-left: 292px;
+}
+
+.HamBurger{
+  display: none;
+}
+
+.btn{
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 380px;
+  color: white;
+   border: 1.5px solid white;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   animation: 0.3s;
+}
+
+.btn:hover{
+  background-color: black;
+}
+
+.btn1{
+  
+  position: absolute;
+  margin-left: 680px;
+  margin-top: 915px;
+  color: black;
+   border: 1.5px solid black;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   animation: 0.3s;
+}
+
+.btn1:hover{
+  background-color: black;
+  color: white;
+}
+
+.category{
+  position: absolute;
+  margin-top: 1200px;
+  margin-left: 36px;
+}
+
+.home{
+  color: black;
+  font-weight: 800;
+}
+.product{
+  position: absolute;
+  margin-top: 1550px;
+}
+
+.big{
+  position: absolute;
+  margin-top: 2500px;
+}
+
+.discount{
+  position: absolute;
+  margin-top: 3150px;
+}
+.summer{
+  position: absolute;
+  margin-top: 3725px;
+}
+
+.Footer{
+  position: absolute;
+  margin-top: 4110px;
+}
+.hamburger{
+  display: none;
+}
+@media (max-width:480px){
+  .Parent{
+    width: 50px;
+    
+  }
+  .iphone{
+    width: 508px;
+  }
+  .Wide{
+    margin-top: 225px;
+    width: 400px;
+  }
+  .Wide-2{
+    margin-top: 390px;
+    width: 510px;
+    margin-left: 0px;
+  }
+  .btn{
+    margin-top: 145px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    font-size: 10px;
+    margin-left: 53px;
+  }
+  .btn1{
+    margin-top: 670px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 5px;
+    font-size: 10px;
+    margin-left: 37px;
+  }
+  .Wide-3{
+    margin-top: 780px;
+    width: 265px;
+  }
+  .Wide-4{
+    margin-top: 780px;
+    width: 265px;
+    margin-left: 245px;
+  }
+  .category{
+    width: 460px;
+    margin-left: 24px;
+    margin-top: 1000px;
+  }
+  .product{
+     margin-top: 1140px;
+     width: 470px;
+     margin-left: 25px;
+    }
+    .big{
+      margin-top: 1500px;
+      margin-left: 15px;
+      width: 488px;
+    }
+    .discount{
+      margin-top: 1740px;
+      width: 470px;
+      margin-left: 15px;
+    }
+    .summer{
+      margin-top: 1956px;
+      width: 510px;
+    }
+    .Footer{
+      margin-top: 2100px;
+      width: 510px;
+    }
+    .NavBar{
+      display: none;
+    }
+     .image{
+      display: none;
+     }
+     .icons{
+      display: none;
+     }
+     .hamburger{
+      width: 50px;
+      margin-right:-900px;
+      display: flex;
+}
+.logo{
+  width: 100px;
+  margin-right: -120px;
+}
+}
+
+
+@media (min-width: 480px) and (max-width:768px){
+  
+  .Parent{
+    width:10px;
+  }
+  .iphone{
+    width: 837px;
+  }
+  .Wide{
+    margin-top: 340px;
+    width: 440px;
+  }
+  .Wide-2{
+    margin-top: 340px;
+    width: 427px;
+    margin-left: 410px;
+  }
+  .btn{
+    margin-top: 250px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 92px;
+  }
+  .btn1{
+    margin-top: 580px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 440px;
+  }
+  .Wide-3{
+    margin-top: 540px;
+    width: 205px;
+
+  }
+  .Wide-4{
+    margin-top: 540px;
+    width: 205px;
+    margin-left: 205px;
+  }
+  .category{
+    width: 840px;
+    margin-left: -0px;
+    margin-top: 800px;
+  }
+  .product{
+     margin-top: 1060px;
+     width: 820px;
+     margin-left: 20px;
+    }
+    .big{
+      margin-top: 1700px;
+      margin-left: 40px;
+      width: 800px;
+    }
+    .discount{
+      margin-top: 2140px;
+      width: 770px;
+      margin-left: 60px;
+    }
+    .summer{
+      margin-top: 2489px;
+      width: 837px;
+    }
+    .Footer{
+      margin-top: 2748px;
+      width: 837px;
+    }
+    .NavBar{
+      display: none;
+    }
+     .image{
+      display: none;
+     }
+     .icons{
+      display: none;
+     }
+     
+.logo{
+  width: 100px;
+  margin-right: -230px;
+  position: relative;
+}
+.hamburger{
+  display:block;
+  width: 100px;
+  margin-left: 1550px;
+  z-index: 1000;
+  position: absolute;
+}
+
+}
+@media (min-width:769px) and (max-width:991px) {
+  .Parent{
+    width: 200px;
+  }
+  .iphone{
+    width: 1018px;
+  }
+  .Wide{
+    margin-top: 448px;
+    width: 470px;
+  }
+  .Wide-2{
+    margin-top: 448px;
+    width: 519px;
+    margin-left: 500px;
+  }
+  .btn{
+    margin-top: 293px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 109px;
+  }
+  .btn1{
+    margin-top: 750px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 530px;
+  }
+  .Wide-3{
+    margin-top: 650px;
+    width: 300px;
+    margin-left: -80px;
+
+  }
+  .Wide-4{
+    margin-top: 650px;
+    width: 297px;
+    margin-left: 203px;
+  }
+  .category{
+    width: 1020px;
+    margin-left: -0px;
+    margin-top: 920px;
+  }
+  .product{
+     margin-top: 1190px;
+     width: 980px;
+     margin-left: 25px;
+    }
+    .big{
+      margin-top: 2000px;
+      margin-left: 40px;
+      width: 978px;
+    }
+    .discount{
+      margin-top: 2500px;
+      width: 950px;
+      margin-left: 60px;
+    }
+    .summer{
+      margin-top: 2930px;
+      width: 1018px;
+    }
+    .Footer{
+      margin-top: 3244px;
+      width: 1018px;
+    }
+    .NavBar{
+      display: flex;
+      margin-left: 760px;
+      align-items:center;
+      width: 10px;
+    }
+     .image{
+      display: flex;
+      margin-left: 470px;
+      width: 300px;
+     }
+     .icons{
+      display: flex;
+      left: 850px;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+      width: 20%;
+      justify-content: space-around;
+      height: auto;
+      max-width: 100px;
+
+    }
+     
+.logo{
+  width: 100px;
+margin-left: 700px;
+margin: 0;
+}
+.hamburger{
+margin-right: -190px;
+}
+}
+@media (min-width:991px) and (max-width:1168px){
+  .Parent{
+    width: 100px;
+  }
+  .iphone{
+    width: 1167px;
+  }
+  .Wide{
+    margin-top: 567px;
+    width: 550px;
+  }
+  .Wide-2{
+    margin-top: 512px;
+    width: 640px;
+    margin-left: 527px;
+  }
+  .btn{
+    margin-top: 340px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 130px;
+  }
+  .btn1{
+    margin-top: 875px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 577px;
+  }
+  .Wide-3{
+    margin-top: 817px;
+    width: 300px;
+    margin-left: -55px;
+
+  }
+  .Wide-4{
+    margin-top: 817px;
+    width: 300px;
+    margin-left: 228px;
+  }
+  .category{
+    width: 1167px;
+    margin-left: -0px;
+    margin-top: 1200px;
+  }
+  .product{
+     margin-top: 1540px;
+     width: 1100px;
+     margin-left: 50px;
+    }
+    .big{
+      margin-top: 2440px;
+      margin-left: 40px;
+      width: 1125px;
+    }
+    .discount{
+      margin-top: 2987px;
+      width: 1125px;
+      margin-left: 40px;
+    }
+    .summer{
+      margin-top: 3490px;
+      width: 1165px;
+    }
+    .Footer{
+      margin-top: 3844px;
+      width: 1165px;
+    }
+    .NavBar{
+      display: flex;
+      margin-left: 1150px;
+      align-items:center;
+      width: 10px;
+    }
+     .image{
+      display: flex;
+      width: 400px;
+      margin-left: 700px;
+     }
+     .icons{
+      display: flex;
+      left: 1000px;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+      width: 20%;
+      justify-content: space-around;
+      height: auto;
+      max-width: 100px;
+     }
+     
+.logo{
+width: 130px;
+margin: 0;
+left: 50px;
+
+}
+.hamburger{
+  display:none;
+}
+}
+
+
+@media (min-width:1169px) and (max-width: 1250px){
+  .Parent{
+    width: 70px;
+  }
+  .iphone{
+    width: 1299px;
+  }
+  .Wide{
+    margin-top: 577px;
+    width: 600px;
+  }
+  .Wide-2{
+    margin-top: 569px;
+    width: 637px;
+    margin-left: 663px;
+  }
+  .btn{
+    margin-top: 375px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 146px;
+  }
+  .btn1{
+    margin-top: 935px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    margin-left: 715px;
+  }
+  .Wide-3{
+    margin-top: 840px;
+    width: 30%;
+    margin-left: -18px;
+
+  }
+  .Wide-4{
+    margin-top: 840px;
+    width:30%;
+    margin-left: 323px;
+  }
+  .category{
+    width: 1200px;
+    margin-left: 49px;
+    margin-top: 1200px;
+  }
+  .product{
+     margin-top: 1540px;
+     width: 1220px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+    }
+    .big{
+      margin-top: 2480px;
+      margin-left: 40px;
+      width: 1259px;
+    }
+    .discount{
+      margin-top: 3080px;
+      width: 1218px;
+      margin-left: 65px;
+    }
+    .summer{
+      margin-top: 3635px;
+      width: 1297px;
+    }
+    .Footer{
+      margin-top: 4020px;
+      width: 1297px;
+    }
+    .NavBar{
+      display: flex;
+      margin-left: 1330px;
+      align-items:center;
+      width: 10px;
+      font-size: 20px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    }
+     .image{
+      display: flex;
+      width: 400px;
+      margin-left: 750px;
+     }
+     .icons{
+      display: flex;
+      left: 1130px;
+      margin: 0;
+      padding: 0;
+      flex-wrap: wrap;
+      width: 20%;
+      justify-content: space-around;
+      height: auto;
+      max-width: 100px;
+     }
+     
+.logo{
+width: 130px;
+margin: 0;
+left: 50px;
+
+}
+.hamburger{
+  display:none;
+}
+}
